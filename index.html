@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit quiz</title>
+    
+    <!-- CSS-LINKS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <!-- FRUIT-QUIZ -->
+    <div class="game-container">
+        <h1>Fruit Quiz</h1>
+        <img id="fruit-image" class="fruit-image" src="" alt="Fruit" width="400" height="400">
+        <input id="answer-input" type="text" placeholder="Enter the fruit name...">
+        <button id="submit-btn">Submit</button>
+        <p id="timer">Time left: <span id="time-left">15</span>s</p>
+    </div>
+    
+    <div id="modal" class="modal">
+        <p id="modal-message"></p>
+        <button id="restart-btn">Restart</button>
+    </div>
+    
+    <!-- JS-LINKS -->
+    <script src="app.js"></script>
+</body>
+</html>

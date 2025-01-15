@@ -121,4 +121,18 @@ restartBtn.addEventListener("click", () => {
 });
 
 // O'yinni boshlash
-startGame();  
+startGame();
+
+//Background music
+const music = document.getElementById("background-music");
+const musicOff = document.getElementById("music-off");
+
+function toggleMusic() {
+    if (music.muted) {
+        music.muted = false;
+        musicOff.textContent = 'off';
+    } else {
+        music.muted = true;
+        musicOff.textContent = 'on';
+    }
+}

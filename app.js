@@ -29,7 +29,7 @@ const fruits = [
 
 // O'yin uchun o'zgaruvchilar
 let currentFruitIndex = 0;
-let timeLeft = 15;
+let timeLeft = 30;
 let timerInterval;
 
 // Elementlarni tanlash
@@ -55,7 +55,7 @@ shuffleArray(fruits);
 // O'yinni boshlash
 function startGame() {
     currentFruitIndex = 0;
-    timeLeft = 15;
+    timeLeft = 30;
     updateFruit();
     startTimer();
 }
@@ -85,7 +85,7 @@ function checkAnswer() {
     if (userAnswer === fruits[currentFruitIndex].name) {
         if (currentFruitIndex < fruits.length - 1) {
             currentFruitIndex++;
-            timeLeft = 15; // Vaqtni yangilash
+            timeLeft = 30; // Vaqtni yangilash
             updateFruit();
         } else {
             endGame("Congratulations! You won!");

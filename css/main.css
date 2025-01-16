@@ -15,18 +15,6 @@ body {
     margin: 0;
     padding: 20px;
 }
-audio {
-    display: none;
-}
-.music-button {
-    background-color: transparent;
-    color: black;
-    border: 1px solid yellow;
-    transition: background-color 0.3s ease;
-}
-.music-button:hover {
-    background-color: yellow;
-} 
 .game-container {
     margin: 20px auto;
     max-width: 400px;
@@ -46,15 +34,18 @@ input {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: transparent;
-    border: 1px solid lightcoral;
-    color: black;
+    background-color: red;
+    color: white;
     cursor: pointer;
     border-radius: 5px;
+    border: 0;
     transition: background-color 0.3s ease;
 }
 button:hover {
-    background-color: lightcoral;
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
 }
 .modal {
     display: none;

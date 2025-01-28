@@ -25,7 +25,7 @@ const fruits = [
     { name: "avocado", image: "./img/avocado.jpg" },
     { name: "quince", image: "./img/quince.jpg" },
     { name: "dragonfruit", image: "./img/dragonfruit.jpg" }
-];  
+];
 
 // O'yin uchun o'zgaruvchilar
 let currentFruitIndex = 0;
